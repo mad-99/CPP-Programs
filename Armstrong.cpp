@@ -5,11 +5,11 @@ int main()
 {
 	int i,sum=0,c=0,r,a,n;
 	cin>>n;
-	/*while(i%10>0)
+	while(i%10>0)
 	{
 		c=c+1;
 		i=i/10;
-	}*/
+	}
 	r=n;
 	for(i=r;i>0;i=i/10)
 	{
@@ -22,14 +22,14 @@ int main()
 		r=r/10;
 		c--;
 	}
-	/*f(n==sum)
+	f(n==sum)
 	{
 		cout<<"true"<<endl;
 	}
 	else
 	{
 		cout<<"false"<<endl;
-	}*/
+	}
 	cout<<sum<<endl;
 	return 0;
 
